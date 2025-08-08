@@ -402,8 +402,11 @@ footer {
         font-size: 13px;
         padding: 6px;
     }
-
+    #section-form{
+        width: 90%;
+    }
 }
+
 
 
 
