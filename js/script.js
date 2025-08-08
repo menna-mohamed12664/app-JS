@@ -6,7 +6,7 @@ let product = [
         color: "Transparent",
         Brand: "Ray-Ban",
         price:"1000$",
-        imgUrl:"photo/_♡.jpeg",
+        imgUrl:"photo/fd634058-3e71-4490-9a94-f25b168babfd.jpeg",
     },
     {
         id: 2,
@@ -118,7 +118,7 @@ let product = [
         color: "Black",
         Brand: "Balmain",
         price:"6700$",
-        imgUrl:"photo/_♡.jpeg",
+        imgUrl:"photo/Timeless style for all 🛍️ Unisex Everyday….jpeg",
     },
     {
         id: 16,
@@ -337,4 +337,5 @@ document.querySelector(".cart i").addEventListener("click",()=>{
         }
     }
  
+
 })
