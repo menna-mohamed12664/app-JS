@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #CAD2D2  ;
+    background-color:   #cad2d2;
 }
 header , .header2{
     height: 70px;
@@ -14,8 +14,13 @@ header , .header2{
     background:-webkit-linear-gradient(top , #8EA1A1   ,rgba(0, 0, 0, 0.76));
 }
 .container{
-    width: 80%;
+    width: 90%;
     margin: auto;
+}
+.products{
+    padding: 3%;
+    background-color: #CAD2D2;
+    box-shadow: 2px 2px 9px gray inset;
 }
 .header-container{
     height: 70px;
@@ -159,7 +164,7 @@ header , .header2{
 .product-action .Add_To_Card{
     width: 140px;
     border: 0;
-    background-color: green;
+    background-color: #023e8a;
     border-radius: 10px;
     padding: 10px;
     margin-left: auto;
@@ -209,12 +214,12 @@ header , .header2{
     transform: translate(-40% , 22px);
     text-align: center;
     padding: 10px;
-    outline: solid 2px green;
+    outline: solid 2px #023e8a;
     border-radius: 5px;
 }
 .veiwProduct a{
     display: block;
-    background-color: green;
+    background-color: #0759c4;
     border-radius: 5px;
 }
 .chose{
@@ -250,7 +255,7 @@ header , .header2{
     }
 }
 [onclick]{
-    background-color: rgb(128, 72, 72);
+    background-color:#023e8a;
     color: #fff;
     letter-spacing: 1px;
     border-radius: 5px;
@@ -260,37 +265,41 @@ header , .header2{
     padding: 5px;
 }
 [onclick]:active{
-    background-color: rgb(154, 119, 119);
+    background-color:#023d8ab3;
+}
+[onclick]:hover{
+    background-color:#0468ec;
 }
 #celerALL , #purshase , #showPrice{
     padding: 10px;
     letter-spacing: 1px;
     word-spacing: 1px;
     font-weight: bold;
-    background-color:  rgb(154, 119, 119);
+    background-color: #023e8a;
     outline: 1px solid transparent;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     margin-top: 10px;
+    color: #ddd;
 }
 #celerALL:hover{
-    background-color:  rgb(152, 136, 136);
+    background-color: #0468ec;
 }
 #purshase:hover{
-    background-color:  rgb(152, 136, 136);
+    background-color: #0468ec;
 }
 #showPrice:hover{
-    background-color:  rgb(152, 136, 136);
+    background-color: #0468ec;
 }
 #celerALL:active{
-    background-color:   rgb(154, 119, 119);
+    background-color: #0468ec;
 }
 #purshase:active{
-    background-color:   rgb(154, 119, 119);
+    background-color: #0468ec;
 }
 #showPrice:active{
-    background-color:   rgb(154, 119, 119);
+    background-color: #0468ec;
 }
 .container{
     height: auto;
@@ -311,7 +320,7 @@ header , .header2{
   opacity: 0;
   transition: opacity 0.4s ease;
   background-color: #f4fdf5;
-  color: #2c8e4d;
+  color: #023e8a;
   padding: 10px 15px;
   margin: 15px auto;
   width: fit-content;
@@ -396,7 +405,8 @@ footer {
         font-size: 18px;
     }
     #iconHeader{
-        font-size: 23px;
+        font-size: 23
+        px;
     }
     #logOut{
         font-size: 13px;
@@ -406,7 +416,6 @@ footer {
         width: 90%;
     }
 }
-
 
 
 
