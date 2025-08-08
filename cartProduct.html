@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="icon" href=photo/logo1.png>
+    <title>Shopping Cart || Cart</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-container">
+               <a href="index.html" class="brand">Shopping</a>
+               <nav>
+                <ul id="links">
+                  <li><a href="login.html">Sign In</a></li>
+                  <li><a href="regiser.html">Sign Up</a></li>
+                </ul>
+
+                <ul id="user_info">
+                    <li><a href="#" id="user"></a></li>
+                    <li class="cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </li>
+                    <li><a href="#" id="logOut">logOut</a></li>
+                </ul>
+
+               </nav>
+            </div><!-- header-container -->
+        </div><!-- container -->
+    </header>
+    <section>
+       <div class="container">
+           <div class="products" ></div>
+            <div id="deleteMessage" class="delete-msg">🗑️ تم حذف المنتج بنجاح!</div>
+            <p id="emptyMessage"> The card is currently empty... For more of your favorite products !🛒</p>
+            <div id="totailPrice"></div>
+            <div id="BtnCart">
+                <button id="celerALL">Celer All</button>
+                <button id="purshase">Purshase</button>
+                <button id="showPrice">Show Price</button>
+            </div><!-- BtnCart -->
+        </div><!-- container -->
+    </section>
+
+    <script src="js/cart.js"></script>
+    <script src="js/user.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
